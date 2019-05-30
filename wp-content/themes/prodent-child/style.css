@@ -1,0 +1,19 @@
+@charset 'utf-8';
+/*
+  Theme Name: ProDent Child
+  Theme URI: http://prodent.ancorathemes.com/
+  Description: ProDent - Multipurpose and Multiskin Responsive Wordpress theme
+  Author: AncoraThemes
+  Author URI: http://ancorathemes.com/
+  Template: prodent
+  Version: 1.0
+  Tags: light, responsive-layout, flexible-header, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+  Text Domain:  prodent
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.top_panel p:empty, .top_panel > p{
+	display: none;
+}
