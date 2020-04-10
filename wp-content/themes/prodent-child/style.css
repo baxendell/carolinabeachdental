@@ -17,3 +17,37 @@
 .top_panel p:empty, .top_panel > p{
 	display: none;
 }
+
+button[disabled], input[type="submit"][disabled], input[type="button"][disabled] {
+  color: white !important;
+}
+
+body .promo .sc_action_content a[href*="tel:"] {
+  color: #7d9e95 !important;
+}
+
+.scheme_dark button, .scheme_dark input[type="reset"], .scheme_dark input[type="submit"], .scheme_dark input[type="button"], .scheme_dark .post_item .more-link, .scheme_dark .comments_wrap .form-submit input[type="submit"], .scheme_dark #buddypress .comment-reply-link, .scheme_dark #buddypress .generic-button a, .scheme_dark #buddypress a.button, .scheme_dark #buddypress button, .scheme_dark #buddypress input[type="button"], .scheme_dark #buddypress input[type="reset"], .scheme_dark #buddypress input[type="submit"], .scheme_dark #buddypress ul.button-nav li a, .scheme_dark a.bp-title-button, .scheme_dark .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button, .scheme_dark body #booked-profile-page .booked-profile-appt-list .appt-block .booked-cal-buttons .google-cal-button > a, .scheme_dark body #booked-profile-page input[type="submit"], .scheme_dark body #booked-profile-page button, .scheme_dark body .booked-list-view input[type="submit"], .scheme_dark body .booked-list-view button, .scheme_dark body table.booked-calendar input[type="submit"], .scheme_dark body table.booked-calendar button, .scheme_dark body .booked-modal input[type="submit"], .scheme_dark body .booked-modal button, .scheme_dark .sc_button_default, .scheme_dark .sc_button:not(.sc_button_simple):not(.sc_button_bordered):not(.sc_button_bg_image), .scheme_dark .socials_share:not(.socials_type_drop) .social_icon, .scheme_dark #tribe-bar-form .tribe-bar-submit input[type="submit"], .scheme_dark #tribe-bar-form.tribe-bar-mini .tribe-bar-submit input[type="submit"], .scheme_dark #tribe-bar-views li.tribe-bar-views-option a, .scheme_dark #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a, .scheme_dark #tribe-events .tribe-events-button, .scheme_dark .tribe-events-button, .scheme_dark .tribe-events-cal-links a, .scheme_dark .tribe-events-sub-nav li a, .scheme_dark .edd_download_purchase_form .button, .scheme_dark #edd-purchase-button, .scheme_dark .edd-submit.button, .scheme_dark .widget_edd_cart_widget .edd_checkout a, .scheme_dark .woocommerce #respond input#submit, .scheme_dark .woocommerce .button, .scheme_dark .woocommerce-page .button, .scheme_dark .woocommerce a.button, .scheme_dark .woocommerce-page a.button, .scheme_dark .woocommerce button.button, .scheme_dark .woocommerce-page button.button, .scheme_dark .woocommerce input.button, .scheme_dark .woocommerce-page input.button, .scheme_dark .woocommerce input[type="button"], .scheme_dark .woocommerce-page input[type="button"], .scheme_dark .woocommerce input[type="submit"], .scheme_dark .woocommerce-page input[type="submit"], .scheme_dark .woocommerce #respond input#submit.alt, .scheme_dark .woocommerce a.button.alt, .scheme_dark .woocommerce button.button.alt, .scheme_dark .woocommerce input.button.alt {
+  background-color: #7d9e95;
+}
+
+.scheme_dark button:hover, .scheme_dark button:focus, .scheme_dark input[type="submit"]:hover, .scheme_dark input[type="submit"]:focus, .scheme_dark input[type="reset"]:hover, .scheme_dark input[type="reset"]:focus, .scheme_dark input[type="button"]:hover, .scheme_dark input[type="button"]:focus, .scheme_dark .post_item .more-link:hover, .scheme_dark .comments_wrap .form-submit input[type="submit"]:hover, .scheme_dark .comments_wrap .form-submit input[type="submit"]:focus, .scheme_dark #buddypress .comment-reply-link:hover, .scheme_dark #buddypress .generic-button a:hover, .scheme_dark #buddypress a.button:hover, .scheme_dark #buddypress button:hover, .scheme_dark #buddypress input[type="button"]:hover, .scheme_dark #buddypress input[type="reset"]:hover, .scheme_dark #buddypress input[type="submit"]:hover, .scheme_dark #buddypress ul.button-nav li a:hover, .scheme_dark a.bp-title-button:hover, .scheme_dark .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button:hover, .scheme_dark body #booked-profile-page .booked-profile-appt-list .appt-block .booked-cal-buttons .google-cal-button > a:hover, .scheme_dark body #booked-profile-page input[type="submit"]:hover, .scheme_dark body #booked-profile-page button:hover, .scheme_dark body .booked-list-view input[type="submit"]:hover, .scheme_dark body .booked-list-view button:hover, .scheme_dark body table.booked-calendar input[type="submit"]:hover, .scheme_dark body table.booked-calendar button:hover, .scheme_dark body .booked-modal input[type="submit"]:hover, .scheme_dark body .booked-modal button:hover, .scheme_dark .sc_button_default:hover, .scheme_dark .sc_button:not(.sc_button_simple):not(.sc_button_bordered):not(.sc_button_bg_image):hover, .scheme_dark .socials_share:not(.socials_type_drop) .social_icon:hover, .scheme_dark #tribe-bar-form .tribe-bar-submit input[type="submit"]:hover, .scheme_dark #tribe-bar-form .tribe-bar-submit input[type="submit"]:focus, .scheme_dark #tribe-bar-form.tribe-bar-mini .tribe-bar-submit input[type="submit"]:hover, .scheme_dark #tribe-bar-form.tribe-bar-mini .tribe-bar-submit input[type="submit"]:focus, .scheme_dark #tribe-bar-views li.tribe-bar-views-option a:hover, .scheme_dark #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a:hover, .scheme_dark #tribe-events .tribe-events-button:hover, .scheme_dark .tribe-events-button:hover, .scheme_dark .tribe-events-cal-links a:hover, .scheme_dark .tribe-events-sub-nav li a:hover, .scheme_dark .edd_download_purchase_form .button:hover, .scheme_dark .edd_download_purchase_form .button:active, .scheme_dark .edd_download_purchase_form .button:focus, .scheme_dark #edd-purchase-button:hover, .scheme_dark #edd-purchase-button:active, .scheme_dark #edd-purchase-button:focus, .scheme_dark .edd-submit.button:hover, .scheme_dark .edd-submit.button:active, .scheme_dark .edd-submit.button:focus, .scheme_dark .widget_edd_cart_widget .edd_checkout a:hover, .scheme_dark .woocommerce #respond input#submit:hover, .scheme_dark .woocommerce .button:hover, .scheme_dark .woocommerce-page .button:hover, .scheme_dark .woocommerce a.button:hover, .scheme_dark .woocommerce-page a.button:hover, .scheme_dark .woocommerce button.button:hover, .scheme_dark .woocommerce-page button.button:hover, .scheme_dark .woocommerce input.button:hover, .scheme_dark .woocommerce-page input.button:hover, .scheme_dark .woocommerce input[type="button"]:hover, .scheme_dark .woocommerce-page input[type="button"]:hover, .scheme_dark .woocommerce input[type="submit"]:hover, .scheme_dark .woocommerce-page input[type="submit"]:hover {
+  background-color: #053040;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav > li > a, .sc_layouts_menu_nav > li li > a {
+  padding: 0.6em 5px;
+}
+
+.sc_layouts_menu_nav > li > ul {
+  margin-left: -8.6em;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav, .sc_layouts_menu_nav > li ul {
+  width: 17.2em;
+}
+
+h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
+  font-size: 3.5em;
+}
+
+.page-id-1258 .top_panel {margin-bottom: 0;}
