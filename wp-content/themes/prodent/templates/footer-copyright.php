@@ -14,6 +14,7 @@ $prodent_copyright_scheme = prodent_is_inherit(prodent_get_theme_option('copyrig
 <div class="footer_copyright_wrap scheme_<?php echo esc_attr($prodent_copyright_scheme); ?>">
 	<div class="footer_copyright_inner">
 		<div class="content_wrap">
+			
 			<div class="copyright_text"><?php
 				// Replace {{...}} and ((...)) on the <i>...</i> and <b>...</b>
 				$prodent_copyright = prodent_prepare_macros(prodent_get_theme_option('copyright'));

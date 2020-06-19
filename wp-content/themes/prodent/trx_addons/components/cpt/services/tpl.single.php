@@ -22,6 +22,16 @@ while ( have_posts() ) { the_post();
 			<?php
 			// Get post meta: price, icon, etc.
 			$meta = get_post_meta(get_the_ID(), 'trx_addons_options', true);
+
+			// Image
+			if ( !trx_addons_sc_layouts_showed('featured') && has_post_thumbnail() ) {
+				?><div class="services_page_featured"><?php
+					the_post_thumbnail( trx_addons_get_thumb_size('huge'), trx_addons_seo_image_params(array(
+								'alt' => get_the_title()
+								))
+							);
+				?></div><?php
+			}
 			
 			// Title
 			if ( !trx_addons_sc_layouts_showed('title') ) {
@@ -35,16 +45,6 @@ while ( have_posts() ) { the_post();
 		// Post content
 		?><section class="services_page_content entry-content"<?php trx_addons_seo_snippets('articleBody'); ?>><?php
 			the_content( );
-
-			// Image
-			if ( !trx_addons_sc_layouts_showed('featured') && has_post_thumbnail() ) {
-				?><div class="services_page_featured"><?php
-					the_post_thumbnail( trx_addons_get_thumb_size('medium'), trx_addons_seo_image_params(array(
-								'alt' => get_the_title()
-								))
-							);
-				?></div><?php
-			}
 		?></section><!-- .entry-content --><?php
 
 		// Link to the product

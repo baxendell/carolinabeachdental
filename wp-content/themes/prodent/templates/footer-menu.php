@@ -15,6 +15,7 @@ $prodent_menu_footer = prodent_get_nav_menu(array(
 if (!empty($prodent_menu_footer)) {
 	?>
 	<div class="footer_menu_wrap">
+		
 		<div class="footer_menu_inner">
 			<?php prodent_show_layout($prodent_menu_footer); ?>
 		</div>
